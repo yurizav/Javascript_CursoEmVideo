@@ -1,0 +1,36 @@
+Na aula de hoje, não programei código pelo VS Code, mas usei o terminal, tanto no VS Code, quanto externo.
+    O comando pro terminal no VS Code é: ('Ctrl'+'Shift'+'`') [ ` é o acento a direita do P] 
+Primeiro o Gustavo ensinou sobre comentários no código, e da importância de bons comentários pra 
+entendimento posterior, seu, ou de outro programador.
+Isso me convenceu, e acho que uma boa forma de aprender mais sobre meu código é comentando o máximo possível
+até pra me testar, se eu compreendo tudo que escrevi nesse código.
+Depois disso, ele fez uma referência de como não podem ter dois carros na mesma vaga, também não podem
+ter dois valores na mesma variável, e baseou a explicação de variável inicial nisso!
+Depois disso, abri o Node.Js, declarei algumas variáveis e fiz alguns exercícios.
+    Criei um html pra declarar variáveis algumas vezes, e entender melhor sua função e sintaxe.
+Gustavo disse pra nomear as variáveis de forma Coerente, e que letras maiúsculas e minúsculas fazem
+diferença no entendimento do computador.
+As variáveis servem para guardar dados. 
+Também aprendi sobre tipos primitivos.
+
+  Tipos Primitivos: 
+  
+     Number (tipos internos: Infinity, NaN[Not a Number]) - 
+                5, 18, 12 - Números Inteiros (Sem parte fraciónaria)
+                8.0, 0.5, -15.0, 3.14 - Números reais (Parte fracionária)
+                    O Javascript considera esses dois conjuntos como o mesmo tipo, que é "Number"
+
+     Boolean - True\False -Tipo Lógico
+
+     Strings - "Google", 'Javascript', `Maria` - Mesmo com ( '' , "" , `` ) São interpretados strings.
+        Strings são conjuntos de caracteres, compostos por acentos, traços, pontos e etc.
+
+Esses três acima são os Tipos Primitivos primordiais, e no curso vamos focar principalmente neles.
+    Entre outros tipos: null, undefined, object(tem o tipo interno Array), function ...
+
+Aprendi também a usar o comando 'typeof' pra analisar o tipo de qualquer variável.
+
+fim-aula05
+
+
+

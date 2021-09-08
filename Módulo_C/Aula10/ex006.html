@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Eventos DOM</title>
+    <style> 
+     div#area {/*Aqui, div#area define o visual da Div, seu tamanho, cores, fonte e alinhamento*/
+            background:chartreuse; /*Fundo da div*/
+            color: white; /*Cor da fonte*/
+            width: 200px; /*Largura*/
+            height: 200px; /*Altura*/
+            line-height: 200px;/*Altura do texto*/
+            text-align: center;/*Alinhamento do texto no Bloco*/
+        }
+    </style>
+</head>
+<body>
+
+    <div id="area">
+        Interaja... 
+    </div>
+    
+    <script>
+        
+        var a = window.document.getElementById('area') /* Declarando fora de uma function específica,
+        posso usar a mesma var em todas elas.*/
+                                                       
+        a.addEventListener('click', clicar)/*var.addEventListener(x) serve pra antecipar a criação de uma function.*/
+        a.addEventListener('mouseenter', entrar)/*var.addEventListener(x) deixa o código menos poluído*/
+        a.addEventListener('mouseout', sair)/*E faz a ligação entre Html e Javascript*/
+
+        function clicar(){
+            a.innerText = 'Clicou, transcendeu!'
+            a.style.background = 'black'
+        }
+        function entrar(){
+            a.innerText = 'Entrou! ( ͡° ͜ʖ ͡°)'
+            a.style.background = 'pink'
+        }
+        function sair(){
+            a.innerText = 'Bota De Novo! (  ͡°  ͜ ʖ  ͡° )'
+            a.style.background = 'red'
+        }
+    </script>
+    
+</body>
+</html>
